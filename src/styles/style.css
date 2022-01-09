@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@100;500&display=swap');
+div>img{
+    margin-bottom: -50px;
+}
+.container{
+    height: 600px;
+    display: flex;
+    background-image: url('../assets/bg-img.png');
+    background-size:cover;
+    background-clip:padding-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    
+    
+}
+.item{
+    flex-grow: 1;
+    margin-top: 175px;
+}
+.text{
+    margin-top: 200px;
+    margin-left: 0px;
+    font-family: Roboto;
+    line-height: 0.5;
+    color: #19345E;
+}
+.text>h3{
+    font-size: 25px;
+
+}
+.text>h1{
+    font-size: 85px;
+}
+.text>h2{
+    font-size: 35px;
+}
+.item >img{
+    width: 350px;
+    height: 375px;
+    /*margin: 100px 100px;*/
+    border-radius: 100%;
+    margin-left: 175px;
+}
+button{
+    background-color: #F47522;
+    border-color: #F47522;
+    border-radius: 10px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 100;
+}
+ul{
+    text-align: right;
+    margin-right: 50px;
+    font-family: Mulish;
+    font-weight: 700;
+}
+li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #19345E ;
+}
+
+  /* mouse over link */
+  a:hover {
+    color: #F47522;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #F47522;
+  }
