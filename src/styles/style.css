@@ -2,6 +2,8 @@
 div>img{
     margin-bottom: -50px;
 }
+
+/*
 .container{
     height: 600px;
     display: flex;
@@ -10,10 +12,10 @@ div>img{
     background-clip:padding-box;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    justify-content: center;
+    justify-content: center;  
+*/
     
-    
-}
+
 .item{
     flex-grow: 1;
     margin-top: 175px;

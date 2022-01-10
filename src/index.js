@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from "./pages/home"
+import Footer from "../src/component/footer"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

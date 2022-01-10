@@ -1,0 +1,19 @@
+.footer{
+    background-color: #19345E;
+    padding:30px;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight:100;
+}
+.logo-footer{
+    width:20%;
+    margin-left: 20px;
+    margin-bottom:20px;
+}
+.icon{
+    text-decoration: none;
+}
+.copyright{
+    margin-top: 20px;
+}
